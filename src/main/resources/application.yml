@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: jonathan
+  h2:
+    console:
+      enabled: true
+logging:
+  level:
+    io:
+      github:
+        jonathanfrosto:
+          clients: debug
